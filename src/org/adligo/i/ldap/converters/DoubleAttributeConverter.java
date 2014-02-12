@@ -2,7 +2,7 @@ package org.adligo.i.ldap.converters;
 
 import java.math.BigDecimal;
 
-import org.adligo.i.util.client.StringUtils;
+import org.adligo.i.util.shared.StringUtils;
 
 public class DoubleAttributeConverter implements I_AttributeConverter<Double, String>{
 	

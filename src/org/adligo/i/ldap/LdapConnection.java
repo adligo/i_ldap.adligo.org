@@ -22,8 +22,8 @@ import org.adligo.i.ldap.models.LargeFileChunkAttributes;
 import org.adligo.i.ldap.models.LdapAttributContext;
 import org.adligo.i.ldap.models.LdapEntry;
 import org.adligo.i.ldap.models.LdapEntryMutant;
-import org.adligo.i.log.client.Log;
-import org.adligo.i.log.client.LogFactory;
+import org.adligo.i.log.shared.Log;
+import org.adligo.i.log.shared.LogFactory;
 import org.adligo.i.pool.PooledConnection;
 
 public abstract class LdapConnection extends PooledConnection {

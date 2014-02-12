@@ -2,8 +2,8 @@ package org.adligo.i.ldap.converters;
 
 import java.util.Date;
 
-import org.adligo.i.util.client.DateTime;
-import org.adligo.i.util.client.StringUtils;
+import org.adligo.i.util.shared.DateTime;
+import org.adligo.i.util.shared.StringUtils;
 
 public class DateAttributeConverter implements I_AttributeConverter<Date, String>{
 

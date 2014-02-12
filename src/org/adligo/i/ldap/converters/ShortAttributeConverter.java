@@ -1,6 +1,6 @@
 package org.adligo.i.ldap.converters;
 
-import org.adligo.i.util.client.StringUtils;
+import org.adligo.i.util.shared.StringUtils;
 
 public class ShortAttributeConverter implements I_AttributeConverter<Short, String>{
 

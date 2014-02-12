@@ -11,8 +11,8 @@ import javax.naming.NamingException;
 import javax.naming.directory.Attribute;
 import javax.naming.directory.Attributes;
 
-import org.adligo.i.log.client.Log;
-import org.adligo.i.log.client.LogFactory;
+import org.adligo.i.log.shared.Log;
+import org.adligo.i.log.shared.LogFactory;
 
 public class LdapEntryMutant implements I_LdapEntry {
 	private static final Log log = LogFactory.getLog(LdapEntryMutant.class);
