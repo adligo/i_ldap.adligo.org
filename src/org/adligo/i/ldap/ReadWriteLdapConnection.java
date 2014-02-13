@@ -14,9 +14,6 @@ import javax.naming.directory.DirContext;
 import javax.naming.directory.ModificationItem;
 import javax.naming.directory.SearchControls;
 
-import org.adligo.i.adi.client.InvokerNames;
-import org.adligo.i.adig.client.GRegistry;
-import org.adligo.i.adig.client.I_GInvoker;
 import org.adligo.i.ldap.models.I_LdapAttribute;
 import org.adligo.i.ldap.models.I_LdapEntry;
 import org.adligo.i.ldap.models.LargeFileAttributes;
@@ -32,8 +29,6 @@ public class ReadWriteLdapConnection extends LdapConnection {
 	public static final String IS_CURRENTLY_BEING_READ_SO_IT_CAN_T_BE_DELETED_RIGHT_NOW = " is currently being read, so it can't be deleted right now.";
 	private static final Log log = LogFactory.getLog(ReadWriteLdapConnection.class);
 	private static List<String> DEFAULT_IGNORE_ATTRIBUTE_LIST = getDefaultIgnoreAttributeList();
-	private static I_GInvoker<Object, Long> CLOCK = GRegistry.getInvoker(InvokerNames.CLOCK, 
-			Object.class, Long.class);
 	
 	
 	private static List<String> getDefaultIgnoreAttributeList() {
